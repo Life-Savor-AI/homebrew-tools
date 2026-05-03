@@ -1,13 +1,13 @@
 class LsaiCli < Formula
   desc "Life Savor AI Developer CLI"
   homepage "https://lifesavor.ai"
-  version "0.1.38"
+  version "0.1.39"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://download.dev.lifesavor.ai/lsai-cli/v0.1.38/lsai-cli-v0.1.38-aarch64-apple-darwin.tar.gz"
-      sha256 "cc9f5a55bdd7f66bf78766717f3dd15b64467f7517130c28e96a283aa9baf08d"
+      url "https://download.dev.lifesavor.ai/lsai-cli/v0.1.39/lsai-cli-v0.1.39-aarch64-apple-darwin.tar.gz"
+      sha256 "f958acd29ffed99b3e40a6c8b7a601c3f3da1e77d458d7b2f0537e0798ad79b4"
     end
   end
 
